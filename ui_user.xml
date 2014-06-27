@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+	<!-- ALL UI CUSTOMIZATION GOES INTO THIS - AND ONLY THIS - FILE                                     -->
+	<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+	<!-- you have to rename this file to ui_user.xml in case you want to allow HUD to load it's content -->
+	<!-- UI customization related topic: http://turbohud.freeforums.net/board/3                         -->
+	<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+
+	<templates>
+	</templates>
+
+	<overrides>
+
+		<!--
+		== Translation 
+		== Language: german / deutsch
+		== Version: V0.6
+		== Author: sketax
+		== Template: Kuchiha
+		-->
+
+		
+		<!-- ui_default_actors -->
+		<!-- Shrines -->
+		<override_shrine_txt enabled="1" file="ui_default_actors" path="actors.shrine_all.label.text" value="Schrein" />
+		<!-- Healing wells -->
+		<override_healing_well_txt enabled="1" file="ui_default_actors" path="actors.healing_well.label.text" value="Heilbrunnen" />
+		<!-- Cursed events -->
+		<override_cursed_events_txt enabled="1" file="ui_default_actors" path="actors.cursed_event.label.text" value="Verfluchte Truhe" />
+		
+		
+		
+		<!-- ui_default_actors_items -->
+		<!-- Items with label -->
+		<override_items_with_label_txt enabled="1" file="ui_default_actors_items" path="templates.items_with_label.label.text" value="default" />
+		
+		
+		
+		<!-- ui_default_actors_monsters -->
+		<!-- Danger -->
+		<override_danger_txt enabled="1" file="ui_default_actors_monsters" path="actors.danger.label.text" value="Gefahr" />
+		<!-- Goblin -->
+		<override_goblin_txt enabled="1" file="ui_default_actors_monsters" path="actors.goblin.label.text" value="Schatzgoblin" />
+		<!-- Keywarden -->
+		<override_keywarden_txt enabled="1" file="ui_default_actors_monsters" path="actors.keywarden.label.text" value="Schlüsselhüter" />
+	
+
+		
+		
+		<!-- ui_default_actors_monsters_affix -->
+		<!-- arcane -->
+		<override_affix_arcane_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_arcane.label.text" value="Arkanverzaubert" />
+		<!-- desecrator -->
+		<override_affix_desecrator_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_desecrator.label.text" value="Schänder" />
+		<!-- electrified -->
+		<override_affix_electrified_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_electrified.label.text" value="Elektrisiert" />
+		<!-- firechains -->
+		<override_affix_firechains_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_firechains.label.text" value="Feuerketten" />
+		<!-- frozen -->
+		<override_affix_frozen_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_frozen.label.text" value="Vereist" />
+		<!-- frozenpulse -->
+		<override_affix_frozenpulse_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_frozenpulse.label.text" value="Vereisungsimpuls" />
+		<!-- molten -->
+		<override_affix_molten_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_molten.label.text" value="Geschmolzen" />
+		<!-- orbiter -->
+		<override_affix_orbiter_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_orbiter.label.text" value="Sphären" />
+		<!-- plagued -->
+		<override_affix_plagued_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_plagued.label.text" value="Verseucht" />
+		<!-- poison -->
+		<override_affix_poison_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_poison.label.text" value="Giftverzaubert" />
+		<!-- reflect -->
+		<override_affix_reflect_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_reflect.label.text" value="Reflektiert Schaden" />
+		<!-- thunderstorm -->
+		<override_affix_thunderstorm_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_thunderstorm.label.text" value="Gewittersturm" />
+		<!-- extrahealth -->
+		<override_affix_extrahealth_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_extrahealth.label.text" value="Mehr Leben" />
+		<!-- fast -->
+		<override_affix_fast_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_fast.label.text" value="Schnell" />
+		<!-- illusionist -->
+		<override_affix_illusionist_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_illusionist.label.text" value="Illusionist" />
+		<!-- jailer -->
+		<override_affix_jailer_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_jailer.label.text" value="Aufseher" />
+		<!-- knockback -->
+		<override_affix_knockback_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_knockback.label.text" value="Rückstoß" />
+		<!-- mortar -->
+		<override_affix_mortar_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_mortar.label.text" value="Mörser" />
+		<!-- nightmarish -->
+		<override_affix_nightmarish_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_nightmarish.label.text" value="Alptraumhaft" />
+		<!-- shielding -->
+		<override_affix_shielding_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_shielding.label.text" value="Abschirmend" />
+		<!-- teleporter -->
+		<override_affix_teleporter_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_teleporter.label.text" value="Teleport" />
+		<!-- vampiric -->
+		<override_affix_vampiric_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_vampiric.label.text" value="Vampirisch" />
+		<!-- vortex -->
+		<override_affix_vortex_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_vortex.label.text" value="Vortex" />
+		<!-- wormhole -->
+		<override_affix_wormhole_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_wormhole.label.text" value="Wurmloch" />
+		<!-- waller -->
+		<override_affix_waller_txt enabled="1" file="ui_default_actors_monsters_affix" path="actors.affix_waller.label.text" value="Blocker" />
+		
+		
+		
+		<!-- ui_default_labels_attributes -->
+		<!-- EHP -->
+		<override_ehpmax_txt enabled="1" file="ui_default_labels_attributes" path="labels.ehp_max.hint" value="effektive Lebenspunkte" />
+		<!-- damage reduce % -->
+		<override_dmgred_txt enabled="1" file="ui_default_labels_attributes" path="labels.dmgred.hint" value="Schaden reduziert um %" />
+		<!-- armor -->
+		<override_armor_txt enabled="1" file="ui_default_labels_attributes" path="labels.armor.hint" value="Rüstung" />
+		<!-- all resist (lowest resist of all) -->
+		<override_allres_txt enabled="1" file="ui_default_labels_attributes" path="labels.allres.hint" value="Alle Widerstände" />
+		<!-- experience bonus % -->
+		<override_experiencebonus_txt enabled="1" file="ui_default_labels_attributes" path="labels.experience_bonus.hint" value="Erfahrungsbonus %" />
+		<!-- magic find % -->
+		<override_magicfind_txt enabled="1" file="ui_default_labels_attributes" path="labels.magic_find.hint" value="Magiefundbonus %" />
+		<!-- weapon damage -->
+		<override_weapondmg_txt enabled="1" file="ui_default_labels_attributes" path="labels.weapon_dmg.hint" value="Waffenschaden" />
+		<!-- attacks/s -->
+		<override_attackspeed_txt enabled="1" file="ui_default_labels_attributes" path="labels.attackspeed.hint" value="Angriffe pro Sekunde" />
+		<!-- critical hit chance -->
+		<override_critchance_txt enabled="1" file="ui_default_labels_attributes" path="labels.critchance.hint" value="Kritische Trefferchance" />
+		<!-- sheet DPS -->
+		<override_sheetdps_txt enabled="1" file="ui_default_labels_attributes" path="labels.sheet_dps.hint" value="Paper DPS" />
+		
+		
+		
+		<!-- ui_default_labels_damage_bonus -->
+		<!-- physical -->
+		<override_physical_txt enabled="1" file="ui_default_labels_damage_bonus" path="labels.physical.hint" value="physischer Schaden %" />
+		<!-- fire -->
+		<override_fire_txt enabled="1" file="ui_default_labels_damage_bonus" path="labels.fire.hint" value="Feuerschaden %" />
+		<!-- lightning -->
+		<override_lightning_txt enabled="1" file="ui_default_labels_damage_bonus" path="labels.lightning.hint" value="Blitzschaden %" />
+		<!-- cold -->
+		<override_cold_txt enabled="1" file="ui_default_labels_damage_bonus" path="labels.cold.hint" value="Kälteschaden %" />
+		<!-- poison -->
+		<override_poison_txt enabled="1" file="ui_default_labels_damage_bonus" path="labels.poison.hint" value="Giftschaden %" />
+		<!-- arcane -->
+		<override_arcane_txt enabled="1" file="ui_default_labels_damage_bonus" path="labels.arcane.hint" value="Arkanschaden %" />
+		<!-- holy -->
+		<override_holy_txt enabled="1" file="ui_default_labels_damage_bonus" path="labels.holy.hint" value="Heiligschaden %" />
+		
+		
+		
+		<!-- ui_default_labels_expbar -->
+		<!-- account total -->
+		<override_xph_account_total_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_account_total_txt.expression" value="Account insgesamt" />
+		<!-- account today -->
+		<override_xph_account_today_again_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_account_today_again_txt.expression" value="Account heute" />
+		<!-- account yesterday -->
+		<override_xph_account_yesterday_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_account_yesterday_txt.expression" value="Account gestern" />
+		<!-- hero total -->
+		<override_xph_hero_total_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_hero_total_txt.expression" value="Charakter insgesamt" />
+		<!-- hero today -->
+		<override_xph_hero_today_again_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_hero_today_again_txt.expression" value="Charakter heute" />
+		<!-- hero yesterday -->
+		<override_xph_hero_yesterday_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_hero_yesterday_txt.expression" value="Charakter gestern" />
+		<!-- session -->
+		<override_xph_session_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_session_txt.expression" value="Sitzung" />
+		<!-- session (abs) -->
+		<override_xph_sessionabs_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_sessionabs_txt.expression" value="Sitzung (insg)" />
+		<!-- run -->
+		<override_xph_run_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_run_txt.expression" value="Runde / Lauf" />
+		<!-- area -->
+		<override_xph_area_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_area_txt.expression" value="Bereich" />
+		<!-- area average -->
+		<override_xph_area_total_txt enabled="1" file="ui_default_labels_expbar" path="labels.xph_area_total_txt.expression" value="Bereichsdurchschnitt" />
+		<!-- lvl -->
+		<override_to_nextx_txt enabled="1" file="ui_default_labels_expbar" path="labels.to_nextx_txt.expression" value="Level" />
+		<!-- time -->
+		<override_to_nextx_time_txt enabled="1" file="ui_default_labels_expbar" path="labels.to_nextx_time.expression" value="Zeit" />
+		<!-- exp -->
+		<override_to_nextx_exp_txt enabled="1" file="ui_default_labels_expbar" path="labels.to_nextx_exp.expression" value="Erfahrung" />
+		
+		
+		
+		<!-- ui_default_labels_run_stats -->
+		<!-- area total -->
+		<override_area_total_txt enabled="1" file="ui_default_labels_run_stats" path="labels.header.area_total.expression" value="Bereich insgesamt" />
+		<!-- area current -->
+		<override_area_current_txt enabled="1" file="ui_default_labels_run_stats" path="labels.header.area_current.expression" value="Bereich" />
+		<!-- session -->
+		<override_session_txt enabled="1" file="ui_default_labels_run_stats" path="labels.header.session.expression" value="Sitzung" />
+		<!-- hero today -->
+		<override_hero_today_txt enabled="1" file="ui_default_labels_run_stats" path="labels.header.hero_today.expression" value="Charakter heute" />
+		<!-- run -->
+		<override_run_txt enabled="1" file="ui_default_labels_run_stats" path="labels.header.run.expression" value="Runde / Lauf" />
+		<!-- play time town -->
+		<override_play_time_town_txt enabled="1" file="ui_default_labels_run_stats" path="labels.play_time.info_town.expression" value="Spielzeit" />
+		<!-- play time area -->
+		<override_play_time_area_txt enabled="1" file="ui_default_labels_run_stats" path="labels.play_time.info_area.expression" value="Spielzeit" />
+		<!-- total kills town -->
+		<override_total_kills_town_txt enabled="1" file="ui_default_labels_run_stats" path="labels.kill.info_town.expression" value="Insgesamte Kills" />
+		<!-- total kills area -->
+		<override_total_kills_area_txt enabled="1" file="ui_default_labels_run_stats" path="labels.kill.info_area.expression" value="Insgesamte Kills" />
+		<!-- elite kills town -->
+		<override_elite_kills_town_txt enabled="1" file="ui_default_labels_run_stats" path="labels.elite.info_town.expression" value="Elite Kills" />
+		<!-- elite kills area -->
+		<override_elite_kills_area_txt enabled="1" file="ui_default_labels_run_stats" path="labels.elite.info_area.expression" value="Elite Kills" />
+		<!-- legendaries town -->
+		<override_leg_town_txt enabled="1" file="ui_default_labels_run_stats" path="labels.legendary.info_town.expression" value="legendäre Gegenstände" />
+		<!-- legendaries area -->
+		<override_leg_area_txt enabled="1" file="ui_default_labels_run_stats" path="labels.legendary.info_area.expression" value="Legendäre Gegenstände" />
+		<!-- exp town -->
+		<override_exp_town_txt enabled="1" file="ui_default_labels_run_stats" path="labels.exp.info_town.expression" value="Erfahrung" />
+		<!-- exp area -->
+		<override_exp_area_txt enabled="1" file="ui_default_labels_run_stats" path="labels.exp.info_area.expression" value="Erfahrung" />
+		
+		<!-- ui_default_labels_utility -->
+		<!-- average latency -->
+		<override_average_latency_txt enabled="1" file="ui_default_labels_utility" path="labels.latency_average.hint" value="durchschnittliche Latenz" />
+		<!-- current latency -->
+		<override_current_latency_txt enabled="1" file="ui_default_labels_utility" path="labels.latency_current.hint" value="derzeitige Latenz" />
+		<!-- current DPS of the party -->
+		<override_dps_cur_party_txt enabled="1" file="ui_default_labels_utility" path="labels.dps_cur_party.hint" value="derzeitige DPS der Gruppe" />
+		<!-- run DPS of the party -->
+		<override_dps_run_party_txt enabled="1" file="ui_default_labels_utility" path="labels.dps_run_party.hint" value="Run DPS der Gruppe" />
+		<!-- free space in inventory -->
+		<override_inventory_free_space_red_txt enabled="1" file="ui_default_labels_utility" path="labels.inventory_free_space_red.hint" value="freie Plätze im Inventar" />
+		<override_inventory_free_space_yellow_txt enabled="1" file="ui_default_labels_utility" path="labels.inventory_free_space_yellow.hint" value="freie Plätze im Inventar" />
+		<override_inventory_free_space_green_txt enabled="1" file="ui_default_labels_utility" path="labels.inventory_free_space_green.hint" value="freie Plätze im Inventar" />
+	
+	</overrides>
+
+	
+	
+
+	<circles>
+
+	</circles>
+
+</config>
